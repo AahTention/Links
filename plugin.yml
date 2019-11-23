@@ -1,0 +1,17 @@
+name: Liens
+version: 1.0.0
+author: Formicida
+main: fr.formicida.liens.Liens
+commands:
+  discord:
+    description: cette commande permet d'afficher le lien du serveur discord
+    permission: liens.discord
+  site:
+    description: cette commande affiche le lien du site web
+    permission: liens.site
+  reglement:
+    description: cette commande affiche le lien du reglement du serveur
+    permission: liens.reglement
+  liens:
+    description: cette commande affiche les informations sur le plugin
+    permission: liens.liens

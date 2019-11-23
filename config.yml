@@ -1,0 +1,17 @@
+# ╔════════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                                ║
+# ║                Bienvenue dans la configuration de Liens                        ║
+# ║                                                                                ║
+# ╚════════════════════════════════════════════════════════════════════════════════╝
+
+# Mettez le lien de votre serveur discord et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+discord:
+  message: "§7[§e!§7] §8Voici le lien du serveur discord §7: §c§lhttps://discord.gg/f8Pnfpy"
+
+# Mettez le lien de votre site web et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+site: 
+  message: "§7[§e!§7] §8Voici le lien du site web §7: §c§lSite web indisponnible"
+
+# Mettez le lien de votre règlement et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+reglement:
+  message: "§7[§e!§7] §8Voici le lien du site web §7: §c§lRèglement indisponnible"
