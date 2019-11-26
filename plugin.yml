@@ -1,5 +1,5 @@
 name: Liens
-version: 1.0.0
+version: 1.0.1
 author: Formicida
 main: fr.formicida.liens.Liens
 commands:
@@ -14,4 +14,13 @@ commands:
     permission: liens.reglement
   liens:
     description: cette commande affiche les informations sur le plugin
-    permission: liens.liens
+    permission: liens.use
+  teamspeak:
+    description: cette commande affiche le lien du serveur teamspeak
+    permission: liens.teamspeak
+  forum:
+    description: cette commande affiche le lien du forum
+    permission: liens.forum
+  twitter:
+    description: cette commande affiche le lien du compte twitter
+    permission: liens.twitter

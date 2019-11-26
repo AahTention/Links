@@ -15,3 +15,15 @@ site:
 # Mettez le lien de votre règlement et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
 reglement:
   message: "§7[§e!§7] §8Voici le lien du site web §7: §c§lRèglement indisponnible"
+
+# Mettez le lien de votre serveur teamspeak et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+teamspeak:
+  message: "§7[§e!§7] §8Nous n'avons pas de serveur TeamSpeak !"
+  
+# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+forum:
+  message: "§7[§e!§7] §8Nous n'avons pas de forum, veuillez utiliser notre serveur discord §7§o(/discord)§8 !"
+
+# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+twitter:
+  message: "§7[§e!§7] §8Nous n'avons pas de compte twitter !"

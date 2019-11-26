@@ -15,7 +15,7 @@ public class CommandLiens implements CommandExecutor {
 				"§6╚═══════════════════════════════════╝\n" +
 				"\n" + 
 				"§9Développé par : §3§lFormicida\n" + 
-				"§9Version : §3§l1.0.0");
+				"§9Version : §3§l1.0.1");
 		return false;
 	}
 
