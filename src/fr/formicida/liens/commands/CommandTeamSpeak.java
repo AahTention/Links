@@ -7,7 +7,7 @@ import org.bukkit.command.CommandSender;
 import fr.formicida.liens.Liens;
 
 public class CommandTeamSpeak implements CommandExecutor {
-	
+
 	private Liens main;
 
 	public CommandTeamSpeak(Liens liens) {

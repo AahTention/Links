@@ -11,7 +11,7 @@ import fr.formicida.liens.commands.CommandTeamSpeak;
 import fr.formicida.liens.commands.CommandTwitter;
 
 public class Liens extends JavaPlugin {
-	
+
 	@Override
 	public void onEnable() {
 		saveDefaultConfig();
@@ -24,7 +24,7 @@ public class Liens extends JavaPlugin {
 		getCommand("twitter").setExecutor(new CommandTwitter(this));
 		getCommand("liens").setExecutor(new CommandLiens());
 	}
-	
+
 	@Override
 	public void onDisable() {
 		System.out.println("Extinction de liens ... 100%");

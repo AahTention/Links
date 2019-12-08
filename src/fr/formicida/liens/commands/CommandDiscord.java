@@ -7,7 +7,7 @@ import org.bukkit.command.CommandSender;
 import fr.formicida.liens.Liens;
 
 public class CommandDiscord implements CommandExecutor {
-	
+
 	private Liens main;
 
 	public CommandDiscord(Liens liens) {

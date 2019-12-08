@@ -7,7 +7,7 @@ import org.bukkit.command.CommandSender;
 import fr.formicida.liens.Liens;
 
 public class CommandTwitter implements CommandExecutor {
-	
+
 	private Liens main;
 
 	public CommandTwitter(Liens liens) {
