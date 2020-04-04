@@ -1,29 +1,29 @@
-# ╔════════════════════════════════════════════════════════════════════════════════╗
-# ║                                                                                ║
-# ║                Bienvenue dans la configuration de Liens                        ║
-# ║                                                                                ║
-# ╚════════════════════════════════════════════════════════════════════════════════╝
+##################################################################################
+#                                                                                #
+#                Bienvenue dans la configuration de Liens                        #
+#                                                                                #
+##################################################################################
 
-# Mettez le lien de votre serveur discord et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre serveur discord et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole � au lieu du symbole &
 discord:
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"
 
-# Mettez le lien de votre site web et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre site web et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole au lieu du symbole &
 site: 
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"
 
-# Mettez le lien de votre règlement et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre ret le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole au lieu du symbole &
 reglement:
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"
 
-# Mettez le lien de votre serveur teamspeak et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre serveur teamspeak et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole au lieu du symbole &
 teamspeak:
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"
   
-# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole au lieu du symbole &
 forum:
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"
 
-# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole § au lieu du symbole &
+# Mettez le lien de votre forum et le message que vous voulez entre les guillemets. Pour les couleurs, utilisez le symbole au lieu du symbole &
 twitter:
-  message: "§a[§2!§&] §eVous n'avez pas spécifié votre message. Rendez vous dans le dossier §6plugins/Liens §ede votre serveur, dans le fichier §6config.yml §eet modifiez tout ça"
+  message: "�7[�a!�7] �6Vous n'avez pas encore choisi de message. Rendez vous dans le fichier �e�oconfig.yml�6 pour changer tout �a"

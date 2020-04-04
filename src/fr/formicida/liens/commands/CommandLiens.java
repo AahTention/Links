@@ -4,49 +4,27 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
+import fr.formicida.liens.Liens;
+
 public class CommandLiens implements CommandExecutor {
-
-	@Override
-	public boolean onCommand(CommandSender p, Command cmd, String msg, String[] args) {
-
-		if (cmd.getName().equalsIgnoreCase("liens")) {
-			if(args.length == 0){
-				p.sendMessage("§6╔═══════════════════════════════════╗\n" + 
-						"§6║                                                                               ║\n" + 
-						"§6║         §e§lBienvenue dans les informations de Liens       §6║\n" + 
-						"§6║                                                                               ║\n" + 
-						"§6╚═══════════════════════════════════╝\n" +
-						"\n" + 
-						"§9Pour des informations sur le plugin : §3§l/liens info\n" + 
-						"§9Pour avoir de l'aide : §3§l/liens support");
-			}
-
-			if(args.length == 1){
-
-				if (args[0].equalsIgnoreCase("info")) {
-					p.sendMessage("§6╔═══════════════════════════════════╗\n" + 
-							"§6║                                                                               ║\n" + 
-							"§6║         §e§lBienvenue dans les informations de Liens       §6║\n" + 
-							"§6║                                                                               ║\n" + 
-							"§6╚═══════════════════════════════════╝\n" +
-							"\n" + 
-							"§9Développé par : §3§lFormicida\n" + 
-							"§9Version : §3§l1.1.0");
-				}
-
-				if (args[0].equalsIgnoreCase("support")) {
-					p.sendMessage("§6╔═══════════════════════════════════╗\n" + 
-							"§6║                                                                               ║\n" + 
-							"§6║         §e§lBienvenue dans les informations de Liens       §6║\n" + 
-							"§6║                                                                               ║\n" + 
-							"§6╚═══════════════════════════════════╝\n" +
-							"\n" + 
-							"§9 Serveur Discord : §3§lhttp://discord.gg/FNuHFGR\n" +
-							"§9 Wiki : §3§lhttps://github.com/AahTention/Liens/wiki");
-				}
-			}
-		}
-		return false;
-	}
-
+  public boolean onCommand(CommandSender p, Command cmd, String msg, String[] args) {
+    if (cmd.getName().equalsIgnoreCase("liens")) {
+      if (args.length == 0)
+        p.sendMessage("�6Pour obtenir des informations sur le plugin, faites �e�l/liens info�6, pour obtenir une assistance, faites �e�l/liens support�6."); 
+      if (args.length == 1) {
+        if (args[0].equalsIgnoreCase("info"))
+          p.sendMessage("�6Plugin d�velopp� par �e�lFormicida�6. Version actuelle : �e�l1.2�6.\n�6&oPlugin libre d'utilisation, mais r�utilisation du code formellement interite."); 
+        if (args[0].equalsIgnoreCase("support"))
+          p.sendMessage("�6Pour acc�der au wiki du plugin : �e�lhttps://github.com/AahTention/Liens/wiki�6, Nous n'avons actuellement plus de serveur Discord.");
+        if (args[0].equalsIgnoreCase("reload"))
+          p.sendMessage("�7[�a!�7]�6 Red�marrage du plugin �e�lLiens �6!");
+          Liens.pm.disablePlugin(Liens.pm.getPlugin("Liens"));
+          Liens.pm.enablePlugin(Liens.pm.getPlugin("Liens"));
+          p.sendMessage("�7[�a!�7]�6 Red�marrage du plugin �e�lLiens �6Termin� avec succ�s!");
+      } 
+    } 
+    return false;
+  }
 }
+
+
